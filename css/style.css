@@ -1,0 +1,24 @@
+/* Navbar */
+.form-control{
+    margin-left: 1rem;
+    width: 80%;
+}
+.dropdown-toggle{
+    background-color: white;
+    outline: none;
+}
+.fa-bell{
+    color: yellow;
+}
+.fa-list {
+    margin-left: 1rem;
+}
+.fa-question{
+    margin:0 1rem;
+    background-color: gray;
+    color: white;
+}
+.fa-ellipsis-vertical{
+    margin: 0 1rem;
+}
+/* Fine Navbar */
