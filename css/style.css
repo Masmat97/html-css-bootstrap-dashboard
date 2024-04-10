@@ -1,7 +1,10 @@
 /* Navbar */
-.form-control{
-    margin-left: 1rem;
+.input-group-text{
     width: 80%;
+    margin-left: 1rem;
+}
+.fa-magnifying-glass{
+    margin-right: 1rem;
 }
 .dropdown-toggle{
     background-color: white;
@@ -22,3 +25,11 @@
     margin: 0 1rem;
 }
 /* Fine Navbar */
+/* Sidebar */
+.sidebar{
+    width: 10%;
+    height:calc(100vh - Navbar);
+    background-image: url(/img/sidebar-bg.png);
+    background-color: blue;
+    color: white;
+}
