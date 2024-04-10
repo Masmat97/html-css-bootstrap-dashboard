@@ -1,42 +1,85 @@
 /* Navbar */
-:root{
-    --nav-height:12vh;
+:root {
+    --nav-height: 12vh;
 }
-nav{
+
+nav {
     height: 12vh;
 }
-.input-group-text{
+
+.input-group-text {
     width: 80%;
     margin-left: 1rem;
 }
-.fa-magnifying-glass{
+
+.fa-magnifying-glass {
     margin-right: 1rem;
 }
-.dropdown-toggle{
-    background-color: white;
+
+.btn-secondary{
     outline: none;
+    background-color: white;
 }
-.fa-bell{
-    color: yellow;
+    
+
+
+.fa-bell {
+    color: goldenrod;
 }
+
 .fa-list {
     margin-left: 1rem;
 }
-.fa-question{
-    margin:0 1rem;
+
+.fa-question {
+    margin: 0 1rem;
     background-color: gray;
     color: white;
 }
-.fa-ellipsis-vertical{
+
+.fa-ellipsis-vertical {
     margin: 0 1rem;
 }
+
 /* Fine Navbar */
 /* Sidebar */
-.sidebar{
-    position: fixed;
+.sidebar {
+    
+    height: 88vh;
     width: 10%;
-    height:calc(100% - nav);
-    background-image:url("../img/sidebar-bg.png");
-    background-color: blue;
-    /* color: white; */
+    margin-top: 12vh;
+    background-image: url("../img/sidebar-bg.png");
+    background-color: rgb(5, 30, 52);
+    color: white;
+}
+
+.column {
+    padding: 2rem 2rem;
+    line-height: 2rem;
+}
+
+/* Fine sidebar */
+/* Prima sezione */
+.first-section {
+    width: 90%;
+    background-color: rgb(27, 114, 232);
+    color: white;
+    margin-top: 12vh;
+    height: 10vh;
+    
+}
+
+.badge{
+    margin: 1rem;
+    height: 1rem;
+
+}
+br{
+    margin-left: 100%;
+}
+.btn-primary{
+    outline: white;
+}
+h4{
+    margin-top: 1rem;
 }
