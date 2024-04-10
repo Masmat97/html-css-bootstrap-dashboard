@@ -1,4 +1,10 @@
 /* Navbar */
+:root{
+    --nav-height:12vh;
+}
+nav{
+    height: 12vh;
+}
 .input-group-text{
     width: 80%;
     margin-left: 1rem;
@@ -27,9 +33,10 @@
 /* Fine Navbar */
 /* Sidebar */
 .sidebar{
+    position: fixed;
     width: 10%;
-    height:calc(100vh - Navbar);
-    background-image: url(/img/sidebar-bg.png);
+    height:calc(100% - nav);
+    background-image:url("../img/sidebar-bg.png");
     background-color: blue;
-    color: white;
+    /* color: white; */
 }
