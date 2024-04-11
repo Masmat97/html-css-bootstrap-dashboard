@@ -7,7 +7,7 @@ nav {
     height: 12vh;
 }
 
-.input-group-text {
+#basic-addon1 {
     width: 80%;
     margin-left: 1rem;
 }
@@ -45,13 +45,16 @@ nav {
 /* Fine Navbar */
 /* Sidebar */
 .sidebar {
-    height:88vh;
+    height: 88vh;
     width: 13vw;
     margin-top: 12vh;
     background-image: url("../img/sidebar-bg.png");
     background-color: rgb(5, 30, 52);
     color: white;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 .column {
@@ -62,14 +65,19 @@ nav {
 /* Fine sidebar */
 /* Prima sezione */
 .first-section {
-    background-color: rgb(27, 114, 232);
     width: 87vw;
-    color: white;
-    margin-top: 12vh;
+
+    margin-top: 9vh;
     height: 88vh;
-    margin-left:0;
+    margin-left: 0;
     padding-top: 1rem;
     overflow-y: auto;
+}
+
+.blu {
+    background-color: rgb(27, 114, 232);
+    color: white;
+    padding-top: 1rem;
 }
 
 .badge {
@@ -91,7 +99,7 @@ h4 {
 
 .second-section {
     margin-top: 4rem;
-    background-color:white ;
+    background-color: white;
 }
 
 .title {
@@ -114,4 +122,17 @@ h3 {
 .h2 {
     color: white;
     font-size: 2rem;
+}
+/* Offcanvas */
+
+
+.form-control{
+    margin: 1rem;
+}
+#offcanvasRight{
+    width: 50%;
+}
+#inputGroup-sizing-sm{
+    height: 2.35rem;
+    margin-top: 1rem;
 }
