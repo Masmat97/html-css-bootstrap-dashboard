@@ -16,15 +16,16 @@ nav {
     margin-right: 1rem;
 }
 
-.btn-secondary{
+.btn-secondary {
     outline: none;
     background-color: white;
 }
-    
+
 
 
 .fa-bell {
     color: goldenrod;
+
 }
 
 .fa-list {
@@ -44,9 +45,9 @@ nav {
 /* Fine Navbar */
 /* Sidebar */
 .sidebar {
-    
+
     height: 88vh;
-    width: 10%;
+    width: 10vw;
     margin-top: 12vh;
     background-image: url("../img/sidebar-bg.png");
     background-color: rgb(5, 30, 52);
@@ -61,25 +62,42 @@ nav {
 /* Fine sidebar */
 /* Prima sezione */
 .first-section {
-    width: 90%;
+    width: 90vw;
     background-color: rgb(27, 114, 232);
     color: white;
     margin-top: 12vh;
     height: 10vh;
-    
+    margin-left: 1px;
 }
 
-.badge{
+.badge {
     margin: 1rem;
     height: 1rem;
 
 }
-br{
+
+br {
     margin-left: 100%;
 }
-.btn-primary{
+
+.btn-primary {
     outline: white;
 }
-h4{
+
+h4 {
     margin-top: 1rem;
+}
+
+
+.second-section {
+    margin-top: 4rem;
+}
+.title{
+    font-size:2rem ;
+}
+.avatar{
+    width: 1rem;
+}
+.badge{
+    margin: 0;
 }
