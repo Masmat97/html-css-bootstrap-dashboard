@@ -45,12 +45,13 @@ nav {
 /* Fine Navbar */
 /* Sidebar */
 .sidebar {
-    height:auto;
+    height:140vh;
     width: 13vw;
     margin-top: 12vh;
     background-image: url("../img/sidebar-bg.png");
     background-color: rgb(5, 30, 52);
     color: white;
+    
 }
 
 .column {
@@ -61,13 +62,14 @@ nav {
 /* Fine sidebar */
 /* Prima sezione */
 .first-section {
-    width: 87vw;
     background-color: rgb(27, 114, 232);
+    width: 87vw;
     color: white;
     margin-top: 12vh;
-    height: 13vh;
-    margin-left: 1px;
+    height: 140vh;
+    margin-left:0;
     padding-top: 1rem;
+    overflow-y: auto;
 }
 
 .badge {
@@ -89,24 +91,27 @@ h4 {
 
 .second-section {
     margin-top: 4rem;
+    background-color:white ;
 }
-.title{
-    font-size:2rem ;
+
+.title {
+    font-size: 2rem;
     outline-style: auto;
 }
-.avatar{
+
+.avatar {
     width: 1rem;
 }
-.badge{
+
+.badge {
     margin: 0;
 }
-h3{
+
+h3 {
     color: black;
 }
-.h2{
-    color:white;
+
+.h2 {
+    color: white;
     font-size: 2rem;
-}
-.card{
-    width: 100%;
 }
