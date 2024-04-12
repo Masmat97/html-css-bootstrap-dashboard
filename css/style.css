@@ -42,6 +42,10 @@ nav {
     margin: 0 1rem;
 }
 
+.dropdown-toggle {
+    border-color: white;
+}
+
 /* Fine Navbar */
 /* Sidebar */
 .sidebar {
@@ -54,7 +58,10 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
 
+#basic-addon1 {
+    border: none;
 }
 
 .column {
@@ -66,7 +73,6 @@ nav {
 /* Prima sezione */
 .first-section {
     width: 87vw;
-
     margin-top: 9vh;
     height: 88vh;
     margin-left: 0;
@@ -96,10 +102,21 @@ h4 {
     margin-top: 1rem;
 }
 
+li {
+    list-style: none;
+}
+
+.form-select {
+    padding: 6px 12px;
+}
 
 .second-section {
     margin-top: 4rem;
     background-color: white;
+}
+
+.card {
+    line-height: 3rem;
 }
 
 .title {
@@ -123,16 +140,45 @@ h3 {
     color: white;
     font-size: 2rem;
 }
+
 /* Offcanvas */
 
 
-.form-control{
+.form-control {
     margin: 1rem;
 }
-#offcanvasRight{
+
+#offcanvasRight {
     width: 50%;
 }
-#inputGroup-sizing-sm{
+
+#basic-addon {
     height: 2.35rem;
     margin-top: 1rem;
+}
+
+.btn-outline-light {
+    border-color: rgb(5, 30, 52);
+}
+
+
+@media screen and (min-width 768px) {
+    #offcanvasRight{
+        width: 100%;
+    }
+    .fa-list{
+        display: none;
+    }
+    .fa-question{ 
+        display: none;
+    }
+    .fa-ellipsis-vertical{
+        display: none;
+    }
+    .dropstart{
+        position: relative;
+    }
+    .data-inizio{
+        display: none;
+    }
 }
