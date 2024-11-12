@@ -21,11 +21,8 @@ nav {
     background-color: white;
 }
 
-
-
 .fa-bell {
     color: goldenrod;
-
 }
 
 .fa-list {
@@ -47,6 +44,7 @@ nav {
 }
 
 /* Fine Navbar */
+
 /* Sidebar */
 .sidebar {
     height: 88vh;
@@ -70,6 +68,7 @@ nav {
 }
 
 /* Fine sidebar */
+
 /* Prima sezione */
 .first-section {
     width: 87vw;
@@ -143,13 +142,12 @@ h3 {
 
 /* Offcanvas */
 
-
 .form-control {
     margin: 1rem;
 }
 
 #offcanvasRight {
-    width: 50%;
+    width: 100%;
 }
 
 #basic-addon {
@@ -161,24 +159,29 @@ h3 {
     border-color: rgb(5, 30, 52);
 }
 
+/* media */
+@media screen and (min-width 768rem) {
+    #offcanvasRight {
+        width: 50%;
+    }
 
-@media screen and (min-width 768px) {
-    #offcanvasRight{
-        width: 100%;
-    }
-    .fa-list{
+    .fa-list {
         display: none;
     }
-    .fa-question{ 
+
+    .fa-question {
         display: none;
     }
-    .fa-ellipsis-vertical{
+
+    .fa-ellipsis-vertical {
         display: none;
     }
-    .dropstart{
+
+    .dropstart {
         position: relative;
     }
-    .data-inizio{
+
+    .data-inizio {
         display: none;
     }
 }
